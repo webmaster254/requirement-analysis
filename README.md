@@ -60,3 +60,5 @@ Requirement Analysis is the process of gathering, analyzing, documenting, and ma
         - **Scope Definition:**Clearly defines which functionalities are included in the system.
         - **Requirement Validation:**Assists in identifying missing or redundant requirements early.
         - **Design Guidance:**Guides further modeling like sequence diagrams, class diagrams, etc
+       
+          ![use case diagram](https://github.com/webmaster254/requirement-analysis/blob/main/alx-booking-uc.png)
