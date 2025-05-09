@@ -62,3 +62,52 @@ Requirement Analysis is the process of gathering, analyzing, documenting, and ma
         - **Design Guidance:** Guides further modeling like sequence diagrams, class diagrams, etc
        
           ![use case diagram](https://github.com/webmaster254/requirement-analysis/blob/main/alx-booking-uc.png)
+
+      ## Acceptance Criteria.
+      Acceptance Criteria are the specific, measurable, and testable conditions that a software system must satisfy to be accepted by stakeholders. They define how to verify that a requirement or feature has been successfully implemented.
+
+      In Requirement Analysis , acceptance criteria play a crucial role in ensuring clarity, alignment, and quality throughout the development process.
+
+      ### Example of a acceptance criteria
+      #### User Story: Checkout Feature
+      1. Access to Checkout
+         - Given the user has selected a room and initiated the booking,
+         - When they proceed to checkout,
+         - Then they should be directed to the checkout page containing all booking details and payment options.
+      2. Display of Booking Summary
+         - The checkout page must display:
+         - Hotel name and address
+         - Check-in and check-out dates
+         - Room type and price per night
+         - Total number of nights
+         - Subtotal, taxes, and total amount due
+      4. Payment Options
+         -  The system should present at least two valid payment methods (e.g., Credit Card, PayPal).
+         -  Users should be able to select one payment method before proceeding.
+      6. Payment Processing
+         - Given the user selects a payment method and enters valid payment details,
+         -  Then the system should:
+         -  Communicate with the payment gateway
+         -  Confirm successful payment
+         -  Proceed to the booking confirmation step
+      8. Error Handling – Invalid Payment
+         - Given the user enters invalid or incomplete payment information,
+         - Then the system should:
+             - Display an appropriate error message
+             - Highlight the fields requiring correction
+             - Allow the user to re-enter the correct details
+      10. Booking Confirmation
+          - After successful payment,
+          - The system shall :
+               - Generate a unique booking ID
+               - Display a confirmation screen with booking details and payment summary
+               - Send a confirmation email/SMS to the user
+      12. Cancel During Checkout
+          - If the user decides to cancel during the checkout process,
+          - They should be able to return to the previous step or abandon the booking without any charges.
+      14. Session Timeout
+          - If the checkout process remains inactive for more than 10 minutes,
+          - The system should:
+               - Notify the user
+               - Redirect them to the homepage or login screen
+               - Discard the incomplete booking
